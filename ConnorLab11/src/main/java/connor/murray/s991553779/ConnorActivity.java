@@ -33,9 +33,10 @@ public class ConnorActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
             case R.id.btnSnack:
-//                Snackbar.make(view, "Swapped Menu", Snackbar.LENGTH_LONG)
-//                    .setAction("Action", null).show();
+               Snackbar.make(view, "Connor Murray, Swapped Menu", Snackbar.LENGTH_LONG)
+                    .setAction("Action", null).show();
                 intent = new Intent(this, MurrayActivity.class);
+                //String message = R.id.textMessage
                 startActivity(intent);
             default:
                 break;

@@ -21,19 +21,22 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.067" />
-
+    <!--
+    For us
+    -->
     <Button
         android:id="@+id/btnLaunch"
         android:layout_width="194dp"
         android:layout_height="55dp"
         android:layout_marginStart="184dp"
         android:layout_marginTop="148dp"
+        android:onClick="callIntent"
         android:text="@string/btn_submit"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/textMessage"
         android:layout_width="354dp"
         android:layout_height="50dp"
         android:layout_marginStart="24dp"
@@ -52,6 +55,7 @@
         android:layout_height="54dp"
         android:layout_marginStart="184dp"
         android:layout_marginTop="224dp"
+        android:onClick="callIntent"
         android:text="@string/text_swap"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
