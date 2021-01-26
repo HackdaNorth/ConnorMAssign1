@@ -1,6 +1,11 @@
 <!-- Connor Murray 991553779 -->
 <resources>
     <string name="app_name">Connor Murray s991553779</string>
-    <string name="btn_submit">Submit</string>
-    <string name="text_main">Hello World!</string>
+    <string name="btn_submit">Launch Twitch.tv</string>
+    <string name="text_main">Welcome Connor Murray <br></br>  Student Number: 991553779 </string>
+    <string name="text_placehold">Enter Some Text...</string>
+    <string name="text_title">title</string>
+    <string name="text_swap">Swap Menu</string>
+    <string name="text_image">logo</string>
+    <string name="switch_text">Change Color</string>
 </resources>

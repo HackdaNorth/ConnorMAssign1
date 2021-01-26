@@ -2,5 +2,10 @@
 <resources>
     <string name="app_name">Connor Murray s991553779</string>
     <string name="btn_submit">Soumettre</string>
-    <string name="text_main">Bonjour Le Monde</string>
+    <string name="text_main">Bienvenue Connor Murray 991553779</string>
+    <string name="text_placehold">Enter Some Text...</string>
+    <string name="text_title">title</string>
+    <string name="text_swap">Swap Menu</string>
+    <string name="text_image">logo</string>
+    <string name="switch_text">Change Color</string>
 </resources>
